@@ -16,10 +16,10 @@ Determinar si una palabra comienza con una vocal.
 
 # Declaraciones
 #CONSTANTE = valor
-Palabra= str(input("Escríbe tu palabra "))
+Palabra= str(input("Escríbe tu palabra: "))
 vocalornot= Palabra[0]
-mensajesivocal= ((Palabra)+(" comienza con vocal"))
-mensajesinvocal= ((Palabra)+(" no comienza con vocal"))
+mensajesivocal= (("'")+(Palabra)+("'")+(" comienza con vocal"))
+mensajesinvocal= (("'")+(Palabra)+("'")+(" no comienza con vocal"))
 
 
 # Entradas
