@@ -17,7 +17,9 @@ Determinar si una palabra comienza con una vocal.
 # Declaraciones
 #CONSTANTE = valor
 
-vocales_ascii = {65, 69, 73, 79, 85,   97, 101, 105, 111, 117, 193, 201, 205, 211, 218, 225, 233, 237, 243, 250 }
+vocales_ascii = {65, 69, 73, 79, 85,   97, 101, 105, 111, 117, 193, 201, 205, 211, 218, 225, 233, 237, 243, 250, 196, 203, 207, 214, 220,
+    228, 235, 239, 246, 252
+ }
 
 
 # Entradas
