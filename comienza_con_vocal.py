@@ -23,8 +23,6 @@ vocales_ascii = {65, 69, 73, 79, 85,   97, 101, 105, 111, 117, 193, 201, 205, 21
 
 
 # Entradas
-#Palabra= str(input("Escríbe tu palabra"))
-
 Palabra= str(input("Escríbe tu palabra: "))
 vocalornot= Palabra[0]
 mensajesivocal= (("'")+(Palabra)+("'")+(" comienza con vocal"))
@@ -36,7 +34,8 @@ if ordvocal in vocales_ascii:
 else:
     salida=mensajesinvocal
 
-print(salida)
+
 
 # Salidas
 
+print(salida)
