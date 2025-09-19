@@ -16,22 +16,20 @@ Determinar si una palabra comienza con una vocal.
 
 # Declaraciones
 #CONSTANTE = valor
-Palabra= str(input("Escríbe tu palabra: "))
-vocalornot= Palabra[0]
-mensajesivocal= (("'")+(Palabra)+("'")+(" comienza con vocal"))
-mensajesinvocal= (("'")+(Palabra)+("'")+(" no comienza con vocal"))
+
+vocales_ascii = {65, 69, 73, 79, 85,   97, 101, 105, 111, 117, 193, 201, 205, 211, 218, 225, 233, 237, 243, 250 }
 
 
 # Entradas
 #Palabra= str(input("Escríbe tu palabra"))
 
-
+Palabra= str(input("Escríbe tu palabra: "))
+vocalornot= Palabra[0]
+mensajesivocal= (("'")+(Palabra)+("'")+(" comienza con vocal"))
+mensajesinvocal= (("'")+(Palabra)+("'")+(" no comienza con vocal"))
+ordvocal= ord(vocalornot)
 # Proceso
-if(vocalornot == 'a' or
-    vocalornot == 'e' or
-    vocalornot == 'i' or
-    vocalornot == 'o' or
-    vocalornot == 'u'):
+if ordvocal in vocales_ascii:
     salida=mensajesivocal
 else:
     salida=mensajesinvocal
